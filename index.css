@@ -1,6 +1,6 @@
 .content{
     display: block;
-    max-width: 700px;
+    max-width: 900px;
     margin-top: 55px;
 }
 
@@ -12,4 +12,37 @@
 
 body{
     padding-bottom: 100px;
+}
+
+.banner{
+    display: block;
+    width: 100%;
+}
+
+.pregunta{
+    display: block;
+    background-color: red;
+    padding: 5px 25px;
+    color:white;
+    margin-top:10px;
+    margin-bottom:10px;
+    position:relative;
+    max-width: 700px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.pregunta::before{
+    content: '';
+    position: absolute;
+    display:block;
+    top:0;
+    right:0;
+    width: 0;
+    height: 0;
+    border-right: 18px solid white;
+    border-top: 18px solid white;
+    border-left: 18px solid red;
+    border-bottom: 18px solid red;
+    transform: rotate(90deg);
 }
