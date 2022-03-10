@@ -21,13 +21,13 @@ body{
 
 .pregunta{
     display: block;
-    background-color: red;
+    background-color: #E42A1F;
     padding: 5px 25px;
     color:white;
     margin-top:10px;
     margin-bottom:10px;
     position:relative;
-    max-width: 700px;
+    max-width: 1040px;
     text-align: center;
     font-size: 18px;
 }
@@ -42,7 +42,7 @@ body{
     height: 0;
     border-right: 18px solid white;
     border-top: 18px solid white;
-    border-left: 18px solid red;
-    border-bottom: 18px solid red;
+    border-left: 18px solid #E42A1F;
+    border-bottom: 18px solid #E42A1F;
     transform: rotate(90deg);
 }
