@@ -46,3 +46,10 @@ body{
     border-bottom: 18px solid #E42A1F;
     transform: rotate(90deg);
 }
+
+@media only screen and (max-width: 968px){
+    .pregunta::before{
+        display: none;
+    }
+    
+}
